@@ -2,7 +2,7 @@
 <head>
     <title>Formulaire</title>
     <link rel="stylesheet" href="form.css">
-</head>
+</head>     
 <body>
     <h2>Formulaire connexion</h2>
     <form action="form.php" method="post">
