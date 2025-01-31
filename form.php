@@ -43,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             echo "<p>Erreur lors de l'enregistrement.</p>";
         }
     } catch (PDOException $e) {
-        die("Erreur de connexion ou d'insertion : " . $e->getMessage());
+        die("Erreur de connexion ou d'insertion : " . $e->getMessage()); //php
     }
 } 
 ?>
