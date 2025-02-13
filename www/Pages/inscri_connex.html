@@ -1,0 +1,36 @@
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title> formulaire inscri_connex </title>
+        <link rel="stylesheet" href="./inscri_conn.css">
+    </head>
+    <body>
+        <div class=block>
+            <h2>Inscription</h2>
+            <form action="registre.php" method="POST">
+                <label for="username">Nom d'utilisateur* :</label>
+                <input type="text" id="username" name="username" required><br><br>
+                
+                <label for="email">Email* :</label>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="password">Mot de passe* :</label>
+                <input type="password" id="password" name="password" required><br><br>
+                
+                <input type="submit" value="S'inscrire">
+            </form>
+        </div>
+        <div class=block>
+            <h2>Connexion</h2>
+            <form action="login.php" method="POST">
+                <label for="username">Nom d'utilisateur :</label>
+                <input type="text" id="username" name="username" required><br><br>
+                
+                <label for="password">Mot de passe :</label>
+                <input type="password" id="password" name="password" required><br><br>
+                
+                <input type="submit" value="Se connecter">
+            </form>
+        </div>
+    </body>
+</html> 
